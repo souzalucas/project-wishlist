@@ -1,0 +1,16 @@
+/home/lucas/microservices/project-wishlist/src/main/java/com/project/demo/controller/CustomerController.java
+/home/lucas/microservices/project-wishlist/src/main/java/com/project/demo/repository/CustomerRepository.java
+/home/lucas/microservices/project-wishlist/src/main/java/com/project/demo/repository/ProductRepository.java
+/home/lucas/microservices/project-wishlist/src/main/java/com/project/demo/service/CustomerService.java
+/home/lucas/microservices/project-wishlist/src/main/java/com/project/demo/model/Wishlist.java
+/home/lucas/microservices/project-wishlist/src/main/java/com/project/demo/controller/ProductController.java
+/home/lucas/microservices/project-wishlist/src/main/java/com/project/demo/model/Customer.java
+/home/lucas/microservices/project-wishlist/src/main/java/com/project/demo/service/impl/CustomerServiceImpl.java
+/home/lucas/microservices/project-wishlist/src/main/java/com/project/demo/controller/WishlistController.java
+/home/lucas/microservices/project-wishlist/src/main/java/com/project/demo/model/Product.java
+/home/lucas/microservices/project-wishlist/src/main/java/com/project/demo/ProjectWishlistApplication.java
+/home/lucas/microservices/project-wishlist/src/main/java/com/project/demo/repository/WishlistRepository.java
+/home/lucas/microservices/project-wishlist/src/main/java/com/project/demo/service/impl/ProductServiceImpl.java
+/home/lucas/microservices/project-wishlist/src/main/java/com/project/demo/service/ProductService.java
+/home/lucas/microservices/project-wishlist/src/main/java/com/project/demo/service/impl/WishlistServiceImpl.java
+/home/lucas/microservices/project-wishlist/src/main/java/com/project/demo/service/WishlistService.java

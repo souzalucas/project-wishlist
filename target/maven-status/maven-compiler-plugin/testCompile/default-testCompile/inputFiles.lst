@@ -1,0 +1,9 @@
+/home/lucas/microservices/project-wishlist/src/test/java/com/project/demo/support/domain/Product.java
+/home/lucas/microservices/project-wishlist/src/test/java/com/project/demo/steps/Config.java
+/home/lucas/microservices/project-wishlist/src/test/java/com/project/demo/support/api/ProductApi.java
+/home/lucas/microservices/project-wishlist/src/test/java/com/project/demo/steps/WishlistStepDefinitions.java
+/home/lucas/microservices/project-wishlist/src/test/java/com/project/demo/support/api/WishlistApi.java
+/home/lucas/microservices/project-wishlist/src/test/java/com/project/demo/cucumber/CucumberContext.java
+/home/lucas/microservices/project-wishlist/src/test/java/com/project/demo/ProjectWishlistApplicationTests.java
+/home/lucas/microservices/project-wishlist/src/test/java/com/project/demo/cucumber/CucumberIT.java
+/home/lucas/microservices/project-wishlist/src/test/java/com/project/demo/support/domain/Wishlist.java
