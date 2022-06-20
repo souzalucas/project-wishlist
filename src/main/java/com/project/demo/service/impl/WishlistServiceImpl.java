@@ -70,10 +70,6 @@ public class WishlistServiceImpl implements WishlistService {
 				Query.query(Criteria.where("id").is(wishlistId)),
 				new Update().push("products", product), Wishlist.class);
 		
-//		return this.wishlistRepository
-//				.findById(wishlistId)
-//				.orElseThrow(() -> new ResponseStatusException(HttpStatus.BAD_REQUEST, "Wishlist does not exist."));
-
 		return mongoTemplate.findOne(Query.query(Criteria.where("id").is(wishlistId)), Wishlist.class);
 	}
 	
@@ -92,10 +88,6 @@ public class WishlistServiceImpl implements WishlistService {
 				Query.query(Criteria.where("id").is(wishlistId)),
 				new Update().pull("products", product), Wishlist.class);
 		
-//		return this.wishlistRepository
-//				.findById(wishlistId)
-//				.orElseThrow(() -> new ResponseStatusException(HttpStatus.BAD_REQUEST, "Wishlist does not exist."));
-
 		return mongoTemplate.findOne(Query.query(Criteria.where("id").is(wishlistId)), Wishlist.class);
 	}
 	
