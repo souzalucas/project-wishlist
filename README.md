@@ -9,12 +9,12 @@ Serviço HTTP em Java Spring Boot para manipular uma Wishlist.
 - **Gerenciador de  dependências:** Maven
 - **Banco de dados:** MongoDB
 
-### Executando os testes:
+### Executando os testes
 1. No terminal, execute `git clone https://github.com/souzalucas/wishlist-microsservice.git`
 2. Carregue o projeto no [Spring Tool Suite](https://spring.io/tools)
 3. Abra o arquivo `src/test/java/resources/features/wishlist.feature`, clique com o botão direito e vá até `Run As >> Cucumber Feature`
 
-### Dependências:
+### Dependências
 - spring-boot-starter-data-mongodb
 - spring-boot-starter-web
 - spring-boot-devtools
