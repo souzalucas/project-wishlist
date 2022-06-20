@@ -31,18 +31,6 @@ public class WishlistServiceImpl implements WishlistService {
     protected MongoTemplate mongoTemplate;
 	
 	@Override
-	public List<Wishlist> getAll() {
-		return this.wishlistRepository.findAll();
-	}
-
-	@Override
-	public Wishlist getById(String id) {
-		return this.wishlistRepository
-				.findById(id)
-				.orElseThrow(() -> new IllegalArgumentException("Wishlist does not exist."));
-	}
-	
-	@Override
 	public Wishlist create(Wishlist wishlist) {
 		return this.wishlistRepository.save(wishlist);
 	}
@@ -118,11 +106,4 @@ public class WishlistServiceImpl implements WishlistService {
 			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Product is not on the wishlist");			
 		}
 	}
-
-	@Override
-	public String deleteById(String id) {
-		this.wishlistRepository.deleteById(id);
-		return "Wishlist deleted with id: " +id;
-	}
-
 }

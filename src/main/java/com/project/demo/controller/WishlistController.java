@@ -23,16 +23,6 @@ public class WishlistController {
 	
 	@Autowired
 	private WishlistService wishlistService;
-
-	@GetMapping 
-	public List<Wishlist> getAll() {
-		return this.wishlistService.getAll();
-	}
-	
-	@GetMapping("/{id}")
-	public Wishlist getById(@PathVariable String id) {
-		return wishlistService.getById(id);
-	}
 	
 	@PostMapping
 	public Wishlist create(@RequestBody Wishlist wishlist) {
@@ -57,10 +47,5 @@ public class WishlistController {
 	@GetMapping("/product/{id}/{productId}")
 	public void getProduct(@PathVariable String id, @PathVariable String productId) {
 		wishlistService.getProduct(id, productId);
-	}
-	
-	@DeleteMapping("/id")
-	public String deleteById(@PathVariable String id) {
-		return this.wishlistService.deleteById(id);
 	}
 }

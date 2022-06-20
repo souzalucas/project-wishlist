@@ -10,10 +10,6 @@ import com.project.demo.model.Wishlist;
 
 @Service
 public interface WishlistService {
-
-	public List<Wishlist> getAll();
-	
-	public Wishlist getById(String id);
 	
 	public Wishlist create(Wishlist wishlist);
 	
@@ -25,5 +21,4 @@ public interface WishlistService {
 	
 	public void getProduct(String wishlistId, String productId);
 	
-	public String deleteById(String id);
 }
