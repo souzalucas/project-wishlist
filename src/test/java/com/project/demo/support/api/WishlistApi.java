@@ -18,7 +18,7 @@ public class WishlistApi {
 	private static final String CREATE_WISHLIST_ENDPOINT = "/wishlists";
 	private static final String ADD_PRODUCT_IN_WISHLIST_ENDPOINT = "/wishlists/addProduct/";
 	private static final String REMOVE_PRODUCT_FROM_WISHLIST_ENDPOINT = "/wishlists/removeProduct/";
-	private static final String GET_ALL_PRODUCTS_FROM_WISHLIST_ENDPOINT = "/wishlists/";
+	private static final String GET_ALL_PRODUCTS_FROM_WISHLIST_ENDPOINT = "/wishlists/products/";
 	private static final String GET_PRODUCT_FROM_WISHLIST_ENDPOINT = "/wishlists/product/";
 
 	public Wishlist addProduct(Wishlist wishlist, Product product) {
