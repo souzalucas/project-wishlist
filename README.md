@@ -11,7 +11,7 @@ Serviço HTTP em Java Spring Boot para manipular uma Wishlist.
 
 ### Executando os testes:
 1. No terminal, execute `git clone https://github.com/souzalucas/wishlist-microsservice.git`
-2. Carregue o projeto no Spring Tool Suite
+2. Carregue o projeto no [Spring Tool Suite](https://spring.io/tools)
 3. Abra o arquivo `src/test/java/resources/features/wishlist.feature`, clique com o botão direito e vá até `Run As >> Cucumber Feature`
 
 ### Dependências:
