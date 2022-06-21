@@ -15,7 +15,7 @@ Serviço HTTP em Java Spring Boot para manipular uma Wishlist.
 3. Crie um banco de dados MongoDB com o nome de "store"
 4. Em `src/main/resources/application.properties` adicione as configurações do MongoDB
 	```
-	spring.data.mongodb.uri= <uri_de_conexao_mongodb> 
+	spring.data.mongodb.uri=<uri_de_conexao_mongodb> 
 	spring.data.mongodb.database=store
 	```
 5. Abra o arquivo `src/test/java/resources/features/wishlist.feature`, clique com o botão direito e vá até `Run As >> Cucumber Feature`
